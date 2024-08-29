@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech&display=swap");
+
+.Registration_container {
+  margin-top: 2%;
+  min-height: 1000px;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 50px auto 0px auto;
+  border-radius: 10px;
+  background-color: rgb(16, 34, 60);
+  min-width: 300px;
+  max-width: 900px;
+}
+
+.reg_heading_container {
+  height: 8%;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.reg_heading {
+  margin-top: 2%;
+  font-family: "Poppins", sans-serif;
+  color: #ffc436;
+  text-align: center;
+  border-bottom: 1px solid #ffc436;
+  font-size: 3rem;
+}
+
+.reg_payment {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.payment_heading {
+  font-family: "Poppins", sans-serif;
+  color: #ffc436;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.reg_list {
+  color: white;
+  font-size: 1.2em;
+  font-family: sans-serif;
+  padding-left: 1rem;
+}
+
+.reg_fee {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.fee_heading {
+  font-family: "Poppins", sans-serif;
+  color: #ffc436;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.fee_container {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Match the number of columns */
+  background-color: rgb(16, 34, 60);
+  padding: 1px;
+}
+
+.grid-heading {
+  background-color: rgb(204, 151, 16);
+  color: white;
+  border: 1px solid white;
+  padding: 4%;
+  font-size: 1em;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.grid-item {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding: 4%;
+  font-size: 1.2em;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.QR_Fee {
+  width: 80%;
+}
+
+.QR_heading {
+  font-family: "Poppins", sans-serif;
+  color: #ffc436;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.line_height_2 {
+  line-height: 2;
+}
+
+.payment_info_con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.QR_img {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.QR_img img {
+  height: 100%;
+  width: 100%;
+}
+
+/* Responsive Design Adjustments */
+@media only screen and (max-width: 370px) {
+  .Registration_container {
+    margin-top: 2%;
+    margin-left: 0%;
+    height: 80%;
+    width: 100%;
+    background-color: rgb(16, 34, 60);
+    border-radius: 20px;
+    padding: 0;
+  }
+
+  .reg_heading {
+    margin-top: 2%;
+    font-family: "Poppins", sans-serif;
+    color: #ffc436;
+    text-align: center;
+    border-bottom: 1px solid #ffc436;
+    font-size: 2rem;
+  }
+
+  .reg_list {
+    color: white;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    padding-left: 1rem;
+  }
+
+  .line_height_2 {
+    font-size: 0.8rem;
+    text-align: left;
+  }
+
+  .payment_heading {
+    font-family: "Poppins", sans-serif;
+    color: #ffc436;
+    text-align: center;
+    font-size: 1.2em;
+  }
+
+  .fee_container {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(16, 34, 60);
+    padding: 1px;
+  }
+
+  .grid-heading {
+    background-color: rgb(204, 151, 16);
+    color: white;
+    border: 1px solid white;
+    padding: 4%;
+    font-size: 0.85em;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .grid-item {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 4%;
+    font-size: 0.8em;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+}
+
+@media only screen and (min-width: 370px) and (max-width: 550px) {
+  .Registration_container {
+    margin-top: 2%;
+    padding: 0px;
+    margin-left: 0%;
+    width: 100%;
+    background-color: rgb(16, 34, 60);
+    border-radius: 20px;
+  }
+
+  .line_height_2 {
+    font-size: 0.8rem;
+    text-align: left;
+  }
+
+  .reg_heading {
+    margin-top: 2%;
+    font-family: "Poppins", sans-serif;
+    color: #ffc436;
+    text-align: center;
+    border-bottom: 1px solid #ffc436;
+    font-size: 2.2rem;
+  }
+
+  .fee_container {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(16, 34, 60);
+    padding: 1px;
+  }
+
+  .grid-heading {
+    background-color: rgb(204, 151, 16);
+    color: white;
+    border: 1px solid white;
+    padding: 4%;
+    font-size: 1em;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .grid-item {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 4%;
+    font-size: 0.8em;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 768px) {
+  .Main_container {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+      0deg,
+      rgba(1, 37, 64, 1) 12%,
+      rgba(205, 230, 251, 1) 100%
+    );
+  }
+
+  .Registration_container {
+    margin-top: 2%;
+    margin-left: 0%;
+    height: 80%;
+    width: 100%;
+    background-color: rgb(16, 34, 60);
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .Registration_container {
+    margin-top: 2%;
+    height: 85%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(16, 34, 60);
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1250px) {
+  .Registration_container {
+    margin-top: 2%;
+    height: 85%;
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgb(16, 34, 60);
+    border-radius: 20px;
+  }
+}
+
+.payment_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.QR_heading {
+  font-family: "Poppins", sans-serif;
+  color: #ffc436;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1250px) {
+  .grid-heading {
+    font-size: 1em;
+  }
+
+  .grid-item {
+    font-size: 0.9em;
+  }
+
+  .QR_heading {
+    font-size: 1.1em;
+  }
+
+  .reg_list {
+    font-size: 1em;
+  }
+}

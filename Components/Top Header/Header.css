@@ -1,0 +1,107 @@
+.header_container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 1rem 1.4rem;
+  right: 5%;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.header_container h1 {
+  color: #ffc436;
+}
+.header_container span {
+  color: azure;
+}
+.header_container h1,
+span {
+  font-size: 4.5rem;
+  text-align: right;
+  font-family: "Monomaniac One", sans-serif;
+  font-weight: 500;
+}
+
+.header_container h4 {
+  font-size: 1.5rem;
+  color: #ffc436;
+}
+.div_holder {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.5rem;
+}
+.sub_header {
+  color: #fff;
+  z-index: 10;
+  font-size: 1.4rem;
+  font-family: "Monomaniac One", sans-serif;
+  overflow: hidden;
+  border-right: 0.15em solid rgb(0, 94, 255);
+  white-space: nowrap;
+  letter-spacing: 0.15em;
+  animation: typing 4s steps(30, end) infinite,
+    blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+
+  27% {
+    width: 100%;
+  }
+
+  73% {
+    width: 100%;
+  }
+
+  100% {
+    width: 0%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: rgb(59, 155, 215);
+  }
+}
+@media (max-width: 1000px) {
+  .header_container {
+    width: 100%;
+    right: 0;
+  }
+  .header_container h1,
+  span {
+    font-size: 3.8rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .header_container h1,
+  span {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .header_container {
+    align-items: center;
+  }
+  .header_container h1,
+  span {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .header_container p {
+    font: 1rem;
+  }
+}

@@ -1,0 +1,93 @@
+:root {
+  --cardHeight: 250px;
+  --cardWidth: 190px;
+}
+
+@media (max-width: 500px) {
+  :root {
+    --cardHeight: 200px;
+    --cardWidth: 150px;
+  }
+}
+
+.card {
+  position: relative;
+  width: var(--cardWidth);
+  height: var(--cardHeight);
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 20px 0px;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  left: -5px;
+  margin: auto;
+  width: calc(var(--cardWidth) + 10px);
+  height: calc(var(--cardHeight) + 10px);
+  border-radius: 10px;
+  background: linear-gradient(-45deg, #e81cff82 0%, #40c9ff84 100%);
+  z-index: -10;
+  pointer-events: none;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100%);
+  transform: translate3d(0, 0, 0) scale(0.9);
+  filter: blur(20px);
+}
+
+.card-heading {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+/* 
+.card:hover::after {
+    filter: blur(30px);
+}
+
+.card:hover::before {
+    transform: rotate(-90deg) scaleX(1.34) scaleY(0.77);
+} */
+
+.inner-card img {
+  width: 140px;
+  height: 140px;
+  border-radius: 8px;
+  border: 2px solid rgb(1, 77, 135);
+}
+
+.inner-card {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 500px) {
+  .inner-card img {
+    width: calc(var(--cardWidth) - 50px);
+    height: calc(var(--cardWidth) - 50px);
+  }
+
+  .inner-card {
+    font-size: 0.7rem;
+  }
+}

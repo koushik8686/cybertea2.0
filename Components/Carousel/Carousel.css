@@ -1,0 +1,86 @@
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-text {
+  text-align: center;
+  font-size: 1.5rem;
+  height: 325px;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.intro-text span {
+  color: rgb(62, 142, 255);
+  opacity: 0.8;
+  font-size: 1.3rem;
+}
+
+.intro-text a {
+  color: rgb(62, 142, 255);
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.carousel {
+  min-width: 900px;
+  width: 60%;
+  max-height: 70vh;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.438);
+}
+
+@media (max-width: 1300px) {
+  .carousel-container {
+    flex-direction: column;
+  }
+}
+
+.carousel-image {
+  width: 100%;
+  max-height: 70vh;
+  border-radius: 10px;
+}
+
+@media (max-width: 920px) {
+  .carousel {
+    min-width: 0;
+    width: 100%;
+    border-radius: 0;
+    margin: 0;
+    height: fit-content;
+    box-shadow: none;
+  }
+
+  .carousel-image {
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 530px) {
+  .intro-text {
+    font-size: 1rem;
+    height: 300px;
+  }
+}
+
+.slick-arrow {
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+  top: 49%;
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 10px;
+}

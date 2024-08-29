@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: white;
+}
+
+body {
+  background: linear-gradient( rgb(0 30 55), rgb(3 54 86));
+  overflow-x: hidden;
+  min-width: 100vw;
+}
+#root::before {
+  content: "";
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -10;
+  top: 0;
+  left: 0;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.globeContainer {
+  height: 100vh;
+  transition: 0.25s;
+  width: 100vw;
+  max-width: 500px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  overflow-x: hidden;
+  padding: 0px;
+  color: rgb(49, 98, 127);
+}
+
+.canvas {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 0px;
+  left: -40%;
+}
+
+.headerContainer {
+  position: absolute;
+  top: 60vh;
+}
+.display_none{
+ 
+    display: none;
+  
+}
+
+.whenSmall{
+  background-image: url("/img/whensmall.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+@media screen and (max-width: 768px) {
+  #small_bg_container{
+    background-image: url("/img/earthSmall.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #container_of_top{
+    display: none;
+  }
+}

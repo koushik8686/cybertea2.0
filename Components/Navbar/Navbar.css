@@ -1,0 +1,114 @@
+nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  color: azure;
+  height: 5rem;
+  transition: 250ms;
+}
+
+.navbar_on_move {
+  background-color: rgba(20, 22, 39, 0.545);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+}
+
+nav h1 {
+  font-size: 30px;
+  font-family: "Monomaniac One", sans-serif;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav h1 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 4px;
+  margin-top: 6px;
+}
+
+#hamburger {
+  display: none;
+}
+
+#nav-right li {
+  list-style: none;
+}
+
+#nav-right li a {
+  color: azure;
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+#nav-right {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 700px;
+}
+
+
+.cover-nav-space {
+  height: 50px;
+}
+
+#nav-right li a:hover {
+  opacity: 1;
+}
+
+@media (max-width: 650px) {
+  #nav-right li a {
+    opacity: 1;
+  }
+
+  #nav-right {
+    flex-direction: column;
+    overflow: hidden;
+    height: 0;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #nav-right.expand {
+    height: 200px;
+    margin-top: 20px;
+  }
+
+  .mobview {
+    width: 90vw;
+    display: flex;
+    height: 3.5rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #hamburger {
+    display: block;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #hamburger.expand {
+    transform: rotate(90deg);
+  }
+
+  nav {
+    background-color: rgb(0 50 87);
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .cover-nav-space {
+    height: 60px;
+  }
+}

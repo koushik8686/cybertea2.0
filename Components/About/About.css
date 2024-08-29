@@ -1,0 +1,36 @@
+#about {
+  line-height: 1.7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0rem auto;
+  background-color: rgb(16, 34, 60);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.278);
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 1080px;
+  padding: 2rem;
+}
+
+#about h2 {
+  font-size: 3rem;
+  border-bottom: 1px solid #ffc436;
+  margin-bottom: 12px;
+  color: #ffc436;
+  font-family: "Oswald", sans-serif;
+}
+
+#about p {
+  font-size: 1.4rem;
+  letter-spacing: 1.5;
+  font-family: "Share Tech", sans-serif;
+  padding-bottom: 2rem;
+  text-align: justify;
+}
+
+@media (max-width: 500px) {
+  #about h2 {
+    font-size: 2rem;
+  }
+}
