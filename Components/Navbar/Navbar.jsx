@@ -35,7 +35,15 @@ export default function Navbar() {
       if (expand) setExpand(false);
     }
   };
-
+  window.addEventListener("scroll", () => {
+    const y = window.scrollY;
+    if (y > 10) {
+      document.getElementById("navbar").classList.add("navbar_on_move");
+    }
+    if (y < 10) {
+      document.getElementById("navbar").classList.remove("navbar_on_move");
+    }
+  });
   return (
     <nav id="navbar">
       <div className="mobview">

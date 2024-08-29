@@ -72,10 +72,18 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr  ;
   background-color: rgb(16, 34, 60);
   padding: 1px;
 }
+.grid-heading.early-registration {
+  grid-column: 2 / 4; /* Spans from column 2 to 3 */
+}
+
+.grid-heading.regular-registration {
+  grid-column: 4 / 6; /* Spans from column 3 to 5 */
+}
+
 
 .grid-heading {
   background-color: rgb(204, 151, 16);
@@ -103,6 +111,8 @@
   border: 1px solid white;
   padding: 4%;
   font-size: 1.2em;
+  display: grid;
+  place-content: center;
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }

@@ -11,8 +11,6 @@ import TopHeader from "../Components/Top Header/Header";
 import About from "../Components/About/About";
 import Patron from "../Components/Patron/Patron";
 import TeamHolder from "../Components/Team/TeamHolder";
-import Registration1 from "../Components/Registration/Registration1"; // New import for CyberTEA 1.0
-import Registration2 from "../Components/Registration/Registration2"; // New import for CyberTEA 2.0
 import "./App.css"; // Import global styles
 
 // Helper component to scroll to top on route change
@@ -45,7 +43,6 @@ function MainComponent() {
       <CardSlider />
       <NewsSchedule />
       <TeamHolder />
-      <Registration2 /> {/* Render Registration2 for CyberTEA 2.0 */}
       <FooterComponent />
     </>
   );
@@ -64,7 +61,6 @@ function CyberTEA1Component() {
       <CardSlider />
       <NewsSchedule />
       <TeamHolder />
-      <Registration1 /> {/* Render Registration1 for CyberTEA 1.0 */}
       <FooterComponent />
     </>
   );

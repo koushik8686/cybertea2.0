@@ -31,8 +31,8 @@ function Registration2() {
         <div className="fee_container">
           <div className="grid-container">
             <div className="grid-heading">Participant Type</div>
-            <div className="grid-heading" colspan="2">Early Registration</div>
-            <div className="grid-heading" colspan="2">Regular Registration</div>
+            <div className="grid-heading early-registration" >Early Registration</div>
+            <div className="grid-heading regular-registration" >Regular Registration</div>
 
             {/* Subheadings for Early and Regular Registration */}
             <div className="grid-item"></div>
@@ -42,7 +42,7 @@ function Registration2() {
             <div className="grid-subheading">Foreign</div>
 
             {/* Table Data */}
-            <div className="grid-item">NITs</div>
+            <div className="grid-item">BTech with Research/ MS/MTech/PhD/ Equivalent</div>
             <div className="grid-item">Rs. 900/-</div>
             <div className="grid-item">$50</div>
             <div className="grid-item">Rs. 1000/-</div>

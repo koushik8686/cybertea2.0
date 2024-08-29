@@ -29,7 +29,7 @@ function Registration1() {
           <p className="fee_heading">Registration Fee</p>
         </div>
         <div className="fee_container">
-          <div className="grid-container">
+          <div className="grid-container1">
             <div className="grid-heading">Participant Type</div>
             <div className="grid-heading">Indian Participants</div>
             <div className="grid-heading">Foreign Participants</div>

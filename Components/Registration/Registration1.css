@@ -68,7 +68,7 @@
   margin-right: 5%;
 }
 
-.grid-container {
+.grid-container1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; /* Match the number of columns */
   background-color: rgb(16, 34, 60);
@@ -173,7 +173,7 @@
     margin-right: 5%;
   }
 
-  .grid-container {
+  .grid-container1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: rgb(16, 34, 60);
@@ -231,7 +231,7 @@
     margin-right: 5%;
   }
 
-  .grid-container {
+  .grid-container1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: rgb(16, 34, 60);
