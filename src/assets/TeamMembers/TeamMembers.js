@@ -1,17 +1,17 @@
 import Aakansh from './Aakansh.png'
-import Ayan from './Ayan.png'
-import Shashank from './Shashank.png'
-import Vinayak from './Vinayak.jpg'
+import Ayush from './ayush.jpg'
+import meghana from './meghana.png'
+import naman from './naman.jpg'
 import Charishma from './Charishma.png'
-import Goyani from './Vrushab Goyani.jpg'
-import Mithun from './Mithun.jpg'
+import anuroop from './anuroop.jpg'
+import Koushik from './Koushik.jpg'
 
 export default {
     Aakansh,
-    Ayan,
-    Shashank,
-    Vinayak,
+    Ayush,
+    meghana,
+    naman,
     Charishma,
-    Goyani,
-    Mithun,
+    Koushik,
+    anuroop,
 }
