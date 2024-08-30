@@ -21,9 +21,9 @@ export default function TeamHolder() {
           <TeamCard
             name="Anuroop Reddy"
             link="https://github.com/anuroopreddy21"
-            image={MemberImages.anuroopreddy21}
+            image={MemberImages.anuroop}
             design={false}
-            title="sosenkkk"
+            title="anuroopreddy21"
           />
           <TeamCard
             name="Koushik P"
@@ -33,27 +33,27 @@ export default function TeamHolder() {
             title="koushik8686"
           />
           <TeamCard
-            link="https://github.com/Ayush-aps"
-            image={MemberImages.Ayush}
-            name="Ayush Pratap Singh"
+            link="https://github.com/Vinayak-Anand"
+            image={MemberImages.naman}
+            name="Naman Goyal"
             design={false}
             title="
-            Ayush-aps"
+            Vinayak-Anand"
           />
           <TeamCard
-            name="Naman Goyal"
-            link="https://github.com/Charishma608"
-            image={MemberImages.Naman}
+            name="Ayush Pratap Singh"
+            link="https://github.com/Ayush-aps"
+            image={MemberImages.Ayush}
             design={false}
-            title="Charishma608"
+            title="Ayush-aps"
           />
         </div>
         <h2>Design Team</h2>
         <div className="team_con">
           <TeamCard
             name="Meghana"
-            link="https://www.linkedin.com/feed/"
-            image={MemberImages.Meghana}
+            link="https://www.linkedin.com/in/iamayan2011/"
+            image={MemberImages.meghana}
             title="Design Team"
             design={true}
           />
