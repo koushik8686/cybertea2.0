@@ -20,21 +20,21 @@ export default function TeamHolder() {
         <div className="team_con">
           <TeamCard
             name="Anuroop Reddy"
-            link="https://github.com/sosenkkk"
-            image={MemberImages.Shashank}
+            link="https://github.com/anuroopreddy21"
+            image={MemberImages.anuroopreddy21}
             design={false}
             title="sosenkkk"
           />
           <TeamCard
             name="Koushik P"
-            link="https://mithun-750.github.io/"
-            image={MemberImages.Mithun}
+            link="https://github.com/koushik8686"
+            image={MemberImages.Koushik}
             design={false}
-            title="Mithun.U"
+            title="koushik8686"
           />
           <TeamCard
             link="https://github.com/Ayush-aps"
-            image={MemberImages.Vinayak}
+            image={MemberImages.Ayush}
             name="Ayush Pratap Singh"
             design={false}
             title="
@@ -43,7 +43,7 @@ export default function TeamHolder() {
           <TeamCard
             name="Naman Goyal"
             link="https://github.com/Charishma608"
-            image={MemberImages.Charishma}
+            image={MemberImages.Naman}
             design={false}
             title="Charishma608"
           />
