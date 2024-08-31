@@ -8,7 +8,7 @@ export default function Patron() {
         <h2>Chief Patron</h2>
         <div className="workshop_con">
           <PatronCard
-            name="Prof. M.V.Kartikeyan"
+            name="Prof. M. V. Kartikeyan"
             img="/img/director.png"
             link="https://www.iiits.ac.in/home/administration/director/"
             title="Director, IIIT Sri City, Chittoor"
