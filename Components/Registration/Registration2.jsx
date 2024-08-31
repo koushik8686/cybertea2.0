@@ -45,8 +45,8 @@ function Registration2() {
             <div className="grid-item">BTech with Research/ MS/MTech/PhD/ Equivalent</div>
             <div className="grid-item">Rs. 900/-</div>
             <div className="grid-item">$50</div>
-            <div className="grid-item">Rs. 1000/-</div>
-            <div className="grid-item">$70</div>
+            <div className="grid-item">Rs. 1400/-</div>
+            <div className="grid-item">$50</div>
 
             <div className="grid-item">Faculty</div>
             <div className="grid-item">Rs. 1400/-</div>
@@ -55,10 +55,10 @@ function Registration2() {
             <div className="grid-item">$100</div>
 
             <div className="grid-item">Industry Person</div>
+            <div className="grid-item">Rs. 1900/-</div>
+            <div className="grid-item">$100</div>
             <div className="grid-item">Rs. 2900/-</div>
             <div className="grid-item">$130</div>
-            <div className="grid-item">Rs. 3200/-</div>
-            <div className="grid-item">$150</div>
           </div>
         </div>
         <div className="payment_container">
