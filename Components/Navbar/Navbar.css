@@ -1,3 +1,4 @@
+/* Navbar styles */
 nav {
   position: fixed;
   top: 0px;
@@ -11,6 +12,63 @@ nav {
   color: azure;
   height: 5rem;
   transition: 250ms;
+}
+/* Dropdown styles */
+.relative {
+  position: relative;
+  
+}
+
+.dropdown-toggle {
+  background: none;
+  border: none;
+  color: azure;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  font-size: 16px; /* Increase font size */
+}
+
+.dropdown-toggle .arrow-icon {
+  margin-left: 3px;
+  font-size: 18px; /* Increase arrow size */
+  transition: transform 0.3s ease;
+}
+
+.dropdown-toggle:hover .arrow-icon {
+  transform: rotate(180deg); /* Optional: Rotate the arrow on hover */
+}
+
+.dropdown-menu {
+  position: absolute;
+  right: 0;
+  border-radius: 6px; /* Slightly larger border radius */
+  overflow: hidden;
+  z-index: 2;
+  width: max-content;
+  min-width: 200px; /* Adjust minimum width */
+  padding: 29px 0; /* Add some padding */
+}
+.drop-down-content{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  background-color: rgba(20, 22, 39, 0.545);
+}
+.dropdown-menu li {
+  list-style: none;
+}
+
+.dropdown-menu li a {
+  display: block;
+  padding: 15px 25px; /* Increase padding for larger clickable area */
+  color: azure;
+  font-size: 16px; /* Increase font size */
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.dropdown-menu li a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .navbar_on_move {
@@ -57,7 +115,6 @@ nav h1 img {
   align-items: center;
   max-width: 700px;
 }
-
 
 .cover-nav-space {
   height: 50px;
