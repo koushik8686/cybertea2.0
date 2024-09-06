@@ -34,7 +34,7 @@ function MainComponent() {
       <div className="scrolling-text">
         <div className="scroll_text_con">
           <InfoIcon fontSize="small" />
-          <h1>Event Date: 01st-05th November 2024</h1> {/* Date for CyberTEA 2.0 */}
+          <h1>Event Date: 01st-05th November 2024</h1> 
         </div>
       </div>
       <Carousel />

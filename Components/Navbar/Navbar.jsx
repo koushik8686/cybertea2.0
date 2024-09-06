@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import logo from "../../src/assets/cyberTea_Circular.png";
 import { Squash as Hamburger } from "hamburger-react";
-import { Link, useNavigate, useLocation } from "react-router-dom";
+import { Link,  useLocation } from "react-router-dom";
 import { FiChevronDown } from "react-icons/fi";
 import "./Navbar.css";
 
@@ -9,7 +9,6 @@ export default function Navbar() {
   const [expand, setExpand] = useState(false);
   const [logoText, setLogoText] = useState("CyberTEA");
   const [showDropdown, setShowDropdown] = useState(false);
-  const navigate = useNavigate();
   const location = useLocation();
 
   useEffect(() => {
@@ -142,9 +141,16 @@ export default function Navbar() {
         </li>
         <li>
           <a
-            href="/img/CyberTEA_Brochure.pdf"
-            download="CyberTEA_Brochure.pdf"
-            onClick={() => setExpand(false)} // Collapse navbar
+             href={
+              location.pathname === '/cybertea1.0' || location.hash === '#/cybertea1.0'
+                ? '/img/CyberTEA_Brochure.pdf'
+                : '/img/CyberTEA 2.0 Brochure.pdf' // Ensure paths are correct
+            }
+            download={
+              location.pathname === '/cybertea1.0' || location.hash === '#/cybertea1.0'
+                ? 'CyberTEA_Brochure.pdf'
+                : 'CyberTEA2.0_Brochure.pdf'
+            }
           >
             Brochure
           </a>

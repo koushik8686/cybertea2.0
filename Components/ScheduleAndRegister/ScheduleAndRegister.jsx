@@ -14,7 +14,7 @@ const NewsSchedule = () => {
         <h1>Schedule</h1>
       </div>
       <div className="NewsSchedule-body">
-        <img src={ScheduleImage} alt="Workshop Schedule" />
+        <img src={ScheduleImage} alt="Workshop Shedule" />
       </div>
     </div>
     <div id="news"> 
