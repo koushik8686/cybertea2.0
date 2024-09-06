@@ -49,9 +49,9 @@
   object-fit: cover;
   width: 12rem;
   height: 12rem;
-  border: 2px solid #24364b;
   border-radius: 9px;
   display: flex;
+  object-fit: contain;
   justify-content: center;
   align-items: center;
   margin: 0 auto 0.6rem;

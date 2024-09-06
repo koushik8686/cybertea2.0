@@ -44,7 +44,7 @@ nav {
   right: 0;
   border-radius: 6px; /* Slightly larger border radius */
   overflow: hidden;
-  z-index: 2;
+  z-index: 78;
   width: max-content;
   min-width: 200px; /* Adjust minimum width */
   padding: 29px 0; /* Add some padding */
@@ -128,7 +128,27 @@ nav h1 img {
   #nav-right li a {
     opacity: 1;
   }
-
+  .dropdown-toggle {
+    background: none;
+    border: none;
+    color: azure;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  }
+  .dropdown-menu {
+    position: relative;
+    overflow: hidden;
+    z-index: 78;
+    width: max-content;
+  }
+  .arrow-icon.rotate {
+    transform: rotate(180deg); /* Rotate arrow when dropdown is open */
+  }
+  
   #nav-right {
     flex-direction: column;
     overflow: hidden;
@@ -138,7 +158,7 @@ nav h1 img {
   }
 
   #nav-right.expand {
-    height: 200px;
+    height: 300px;
     margin-top: 20px;
   }
 

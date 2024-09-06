@@ -7,7 +7,7 @@ export default function TopHeader() {
   const location = useLocation(); // Hook to get the current location
 
   // Determine the date to display based on the current route
-  const dateText = location.pathname === "/cybertea1.0" ? "02nd-06th January 2024" : "02nd-06th January 2025";
+  const dateText = location.pathname === "/cybertea1.0" ? "02nd-06th January 2024" : "01st-05th November 2024";
 
   const arraySub = subBio ? dateText : "5 Days Online Workshop"; // Use the appropriate date text
 

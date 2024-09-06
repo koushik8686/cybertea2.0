@@ -19,7 +19,41 @@ export default function Navbar() {
       setLogoText("CyberTEA 1.0");
     }
   }, [location.pathname]);
+  const SetDropdownItems = () => {
+    const navRight = document.getElementById("nav-right");
 
+    // Check if dropdown items already exist to prevent duplication
+    const existingDropdownItems = document.querySelectorAll(".dynamic-dropdown-item");
+    if (existingDropdownItems.length) {
+      existingDropdownItems.forEach((item) => item.remove());
+      setShowDropdown(false);
+      return;
+    }
+
+    const item1 = document.createElement("li");
+    item1.className = "dynamic-dropdown-item";
+    const link1 = document.createElement("a");
+    link1.href = "/cybertea1.0";
+    link1.innerText = "CyberTEA 1.0";
+    link1.onclick = () => {
+      setShowDropdown(false);
+    };
+    item1.appendChild(link1);
+
+    const item2 = document.createElement("li");
+    item2.className = "dynamic-dropdown-item";
+    const link2 = document.createElement("a");
+    link2.href = "/";
+    link2.innerText = "CyberTEA 2.0";
+    link2.onclick = () => {
+      setShowDropdown(false);
+    };
+    item2.appendChild(link2);
+
+    // Append items to the ul element
+    navRight.appendChild(item1);
+    navRight.appendChild(item2);
+  };
   const NavToggle = () => {
     setExpand(!expand);
   };
@@ -38,7 +72,7 @@ export default function Navbar() {
         top: targetPosition,
         behavior: "smooth",
       });
-      if (expand) setExpand(false);
+      if (expand) setExpand(false); // Collapse the navbar after scroll
     }
   };
 
@@ -52,23 +86,13 @@ export default function Navbar() {
         navbar.classList.remove("navbar_on_move");
       }
     };
-    
+
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-    useEffect(() => {
-    const adjustDropdownPadding = () => {
-      const dropdownMenu = document.querySelector(".dropdown-menu");
-      if (showDropdown && window.scrollY < 10) {
-        dropdownMenu.style.padding = "0";
-      } else {
-        // dropdownMenu.style.padding = ""; // Reset padding
-      }
-    };
-    adjustDropdownPadding();
-  }, [showDropdown]);
+
   return (
     <nav id="navbar">
       <div className="mobview">
@@ -84,62 +108,109 @@ export default function Navbar() {
       </div>
       <ul id="nav-right" className={expand ? "expand" : ""}>
         <li>
-          <Link to="/" onClick={() => { 
-            window.scrollTo(0, 0); 
-            if (expand) setExpand(false); 
-          }}>Home</Link>
+          <Link
+            to="/"
+            onClick={() => {
+              window.scrollTo(0, 0);
+              setExpand(false); // Collapse navbar
+            }}
+          >
+            Home
+          </Link>
         </li>
         <li>
-          <a href="#about" onClick={(e) => scrollToSection(e, "about")}>
+          <a
+            href="#about"
+            onClick={(e) => {
+              scrollToSection(e, "about");
+              setExpand(false); // Collapse navbar
+            }}
+          >
             About
           </a>
         </li>
         <li>
-          <a href="#speakers" onClick={(e) => scrollToSection(e, "speakers")}>
+          <a
+            href="#speakers"
+            onClick={(e) => {
+              scrollToSection(e, "speakers");
+              setExpand(false); // Collapse navbar
+            }}
+          >
             Speakers
           </a>
         </li>
         <li>
-          <a href="/img/CyberTEA_Brochure.pdf" download="CyberTEA_Brochure.pdf">
+          <a
+            href="/img/CyberTEA_Brochure.pdf"
+            download="CyberTEA_Brochure.pdf"
+            onClick={() => setExpand(false)} // Collapse navbar
+          >
             Brochure
           </a>
         </li>
         <li>
-          <a href="#schedule" onClick={(e) => scrollToSection(e, "schedule")}>
+          <a
+            href="#schedule"
+            onClick={(e) => {
+              scrollToSection(e, "schedule");
+              setExpand(false); // Collapse navbar
+            }}
+          >
             Schedule
           </a>
         </li>
         <li>
-          <a href="#registration" onClick={(e) => scrollToSection(e, "registration")}>
+          <a
+            href="#registration"
+            onClick={(e) => {
+              scrollToSection(e, "registration");
+              setExpand(false); // Collapse navbar
+            }}
+          >
             Register
           </a>
         </li>
-        <li  onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown} className="relative">
+        <li
+          onClick = { expand? SetDropdownItems: null}// Collapse navbar when dropdown is clicked
+          onMouseEnter={!expand ? toggleDropdown : null}
+          onMouseLeave={!expand ? toggleDropdown : null}
+          className="relative"
+        >
           <a className="dropdown-toggle">
-            Past Events  
+            Past Events
             <FiChevronDown className="arrow-icon" /> {/* Dropdown icon */}
           </a>
           {showDropdown && (
-            <div  className="dropdown-menu">
+            <div className="dropdown-menu">
               <ul className="drop-down-content">
-              <li>
-                <Link to="/cybertea1.0" onClick={() => { 
-                  if (expand) setExpand(false); 
-                  setShowDropdown(false);
-                }}>CyberTEA 1.0</Link>
-              </li>
-              <li>
-                <Link to="/" onClick={() => { 
-                  if (expand) setExpand(false); 
-                  setShowDropdown(false);
-                }}>CyberTEA 2.0</Link>
-              </li>
+                <li>
+                  <Link
+                    to="/cybertea1.0"
+                    onClick={() => {
+                      setExpand(false); // Collapse navbar
+                      setShowDropdown(false);
+                    }}
+                  >
+                    CyberTEA 1.0
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/"
+                    onClick={() => {
+                      setExpand(false); // Collapse navbar
+                      setShowDropdown(false);
+                    }}
+                  >
+                    CyberTEA 2.0
+                  </Link>
+                </li>
               </ul>
             </div>
           )}
         </li>
       </ul>
-      
     </nav>
   );
 }
