@@ -201,17 +201,7 @@ export default function Navbar() {
                     CyberTEA 1.0
                   </Link>
                 </li>
-                <li>
-                  <Link
-                    to="/"
-                    onClick={() => {
-                      setExpand(false); // Collapse navbar
-                      setShowDropdown(false);
-                    }}
-                  >
-                    CyberTEA 2.0
-                  </Link>
-                </li>
+               
               </ul>
             </div>
           )}
