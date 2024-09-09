@@ -1,5 +1,7 @@
 import "./About.css";
 
+//new about 
+
 export default function About2() {
   return (
     <>
@@ -15,6 +17,7 @@ export default function About2() {
            cybersecurity. This workshop will foster a collaborative
            environment for participants to learn, discuss, and explore
            innovative solutions to safeguard digital assets
+
         </p>
       </div>
     </>
