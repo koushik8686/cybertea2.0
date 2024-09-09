@@ -33,12 +33,12 @@ export default function TeamHolder() {
             title="koushik8686"
           />
           <TeamCard
-            link="https://github.com/Vinayak-Anand"
+            link="https://github.com/naman-0105"
             image={MemberImages.naman}
             name="Naman Goyal"
             design={false}
             title="
-            Vinayak-Anand"
+            naman-0105"
           />
           <TeamCard
             name="Ayush Pratap Singh"
