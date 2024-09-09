@@ -39,19 +39,10 @@ export default function Navbar() {
     };
     item1.appendChild(link1);
 
-    const item2 = document.createElement("li");
-    item2.className = "dynamic-dropdown-item";
-    const link2 = document.createElement("a");
-    link2.href = "#/";
-    link2.innerText = "CyberTEA 2.0";
-    link2.onclick = () => {
-      setShowDropdown(false);
-    };
-    item2.appendChild(link2);
-
+   
     // Append items to the ul element
     navRight.appendChild(item1);
-    navRight.appendChild(item2);
+   
   };
   const NavToggle = () => {
     setExpand(!expand);
