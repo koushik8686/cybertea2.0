@@ -19,7 +19,7 @@ function Registration2() {
             </li>
             <li>
               After payment please fill out the form to confirm your registration {"->"}{" "}
-              <a href="https://forms.gle/To8gFQaw9cRxEi6z7" target="_blank" rel="noreferrer">
+              <a href="https://forms.gle/yPqFsNJGwFACvSYFA" target="_blank" rel="noreferrer">
                 Link to the form.
               </a>
             </li>
@@ -73,11 +73,15 @@ function Registration2() {
           <div className="QR_Fee">
             <p className="QR_heading">Fee Payment through Bank Transfer</p>
             <div className="payment_info_con">
-              <p className="line_height_2">Account Name: IIIT SRI CITY CHITTOOR OPEX A/C</p>
-              <p className="line_height_2">Bank Account Number : 38329375681</p>
-              <p className="line_height_2">IFSC CODE: SBIN0016527</p>
-              <p className="line_height_2">MICR CODE: 517002825</p>
-              <p className="line_height_2">SWIFT CODE: SBININBB324</p>
+              <p className="line_height_2">Account Name: Indian Institute of Information Technology Sri City Chittoor
+</p>
+              <p className="line_height_2">Bank Account Number : 110167506587
+</p>
+              <p className="line_height_2">IFSC CODE: CNRB0013247
+</p>
+              <p className="line_height_2">Bank Name: Canara Bank
+</p>
+              <p className="line_height_2">Branch Name:Sri City</p>
             </div>
           </div>
         </div>
