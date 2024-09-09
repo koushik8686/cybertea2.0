@@ -58,9 +58,9 @@ export default function TeamHolder() {
             design={true}
           />
           <TeamCard
-            name="Akansh Vaibhav"
-            link="https://www.linkedin.com/in/akansh-vaibhav-040524222/"
-            image={MemberImages.Aakansh}
+            name="Shreeraj M"
+            link="https://www.linkedin.com/in/m-shreeraj/"
+            image={MemberImages.Shree}
             design={true}
             title="Design Team"
           />
