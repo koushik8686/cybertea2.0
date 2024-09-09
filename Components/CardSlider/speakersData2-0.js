@@ -1,22 +1,22 @@
 // Import statements
-import p1 from "../../src/assets/Speakers 2.0/Ravi Kumar.jpg";
-import p2 from "../../src/assets/Speakers 2.0/Chandan Gautam.jpg";
-import p3 from "../../src/assets/Speakers 2.0/Aditya Japa.jpg";
-import p4 from "../../src/assets/Speakers 2.0/Nitesh K Bharadwaj.jpg";
-import p5 from "../../src/assets/Speakers 2.0/Jayakumar S.jpg";
-import p6 from "../../src/assets/Speakers 2.0/Chandra Sekhar V.jpg";
-import p7 from "../../src/assets/Speakers 2.0/Padmavathi U.jpg";
-import p8 from "../../src/assets/Speakers 2.0/Kamalakanth Sethi.jpg";
-import p9 from "../../src/assets/Speakers 2.0/Abhishek Hazra.jpg";
-import p10 from "../../src/assets/Speakers 2.0/Mallikarjun Reddy.jpg";
-import p11 from "../../src/assets/Speakers 2.0/Nikhil Tripathi.jpg";
-import p12 from "../../src/assets/Speakers 2.0/Neha Agarwal.jpg";
+import p1 from "../../src/assets/Speakers_2.0/Ravi_Kumar.jpg";
+import p2 from "../../src/assets/Speakers_2.0/Chandan Gautam.jpg";
+import p3 from "../../src/assets/Speakers_2.0/Aditya Japa.jpg";
+import p4 from "../../src/assets/Speakers_2.0/Nitesh K Bharadwaj.jpg";
+import p5 from "../../src/assets/Speakers_2.0/Jayakumar S.jpg";
+import p6 from "../../src/assets/Speakers_2.0/Chandra Sekhar V.jpg";
+import p7 from "../../src/assets/Speakers_2.0/Padmavathi U.jpg";
+import p8 from "../../src/assets/Speakers_2.0/Kamalakanth Sethi.jpg";
+import p9 from "../../src/assets/Speakers_2.0/Abhishek Hazra.jpg";
+import p10 from "../../src/assets/Speakers_2.0/Mallikarjun Reddy.jpg";
+import p11 from "../../src/assets/Speakers_2.0/Nikhil Tripathi.jpg";
+import p12 from "../../src/assets/Speakers_2.0/Neha Agarwal.jpg";
 
-import p13 from "../../src/assets/Speakers 2.0/Ms M Suma Sri.jpg";
-import p14 from "../../src/assets/Speakers 2.0/Mr Rahul Kanyal.jpg";
-import p15 from "../../src/assets/Speakers 2.0/Mr Ragan Murali.jpg";
-import p16 from "../../src/assets/Speakers 2.0/Ms Krishna Kumari Matta.jpg";
-import p17 from "../../src/assets/Speakers 2.0/Ms Munmun Swain.jpg";
+import p13 from "../../src/assets/Speakers_2.0/Ms M Suma Sri.jpg";
+import p14 from "../../src/assets/Speakers_2.0/Mr Rahul Kanyal.jpg";
+import p15 from "../../src/assets/Speakers_2.0/Mr Ragan Murali.jpg";
+import p16 from "../../src/assets/Speakers_2.0/Ms Krishna Kumari Matta.jpg";
+import p17 from "../../src/assets/Speakers_2.0/Ms Munmun Swain.jpg";
 
 const speakersData = [
   // Academic category
