@@ -32,7 +32,7 @@ export default function Navbar() {
     const item1 = document.createElement("li");
     item1.className = "dynamic-dropdown-item";
     const link1 = document.createElement("a");
-    link1.href = "/cybertea1.0";
+    link1.href = "#/cybertea1.0";
     link1.innerText = "CyberTEA 1.0";
     link1.onclick = () => {
       setShowDropdown(false);
@@ -42,7 +42,7 @@ export default function Navbar() {
     const item2 = document.createElement("li");
     item2.className = "dynamic-dropdown-item";
     const link2 = document.createElement("a");
-    link2.href = "/";
+    link2.href = "#/";
     link2.innerText = "CyberTEA 2.0";
     link2.onclick = () => {
       setShowDropdown(false);
