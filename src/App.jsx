@@ -11,6 +11,7 @@ import FooterComponent from "../Components/FooterComponent/FooterComponent";
 import InfoIcon from "@mui/icons-material/Info";
 import TopHeader from "../Components/Top Header/Header";
 import About from "../Components/About/About";
+import About2 from "../Components/About/About2";
 import Patron from "../Components/Patron/Patron";
 import TeamHolder from "../Components/Team/TeamHolder";
 import Teamholder1_0 from "../Components/Team/TeamHolder-1.0" 
@@ -40,7 +41,7 @@ function MainComponent() {
       </div>
       <Carousel />
       <div className="about_container">
-        <About />
+        <About2 />
       </div>
       <Patron />
       <CardSlider2/>
