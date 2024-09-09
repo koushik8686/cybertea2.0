@@ -33,12 +33,12 @@ export default function TeamHolder() {
             title="koushik8686"
           />
           <TeamCard
-            link="https://github.com/Vinayak-Anand"
+            link="https://github.com/naman-0105"
             image={MemberImages.naman}
             name="Naman Goyal"
             design={false}
             title="
-            Vinayak-Anand"
+            naman-0105"
           />
           <TeamCard
             name="Ayush Pratap Singh"
@@ -52,7 +52,7 @@ export default function TeamHolder() {
         <div className="team_con">
           <TeamCard
             name="Meghana"
-            link="https://www.linkedin.com/in/iamayan2011/"
+            link="https://www.linkedin.com/in/kuruva-meghana-51b004319?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             image={MemberImages.meghana}
             title="Design Team"
             design={true}
