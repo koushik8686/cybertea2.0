@@ -15,7 +15,7 @@ function Registration2() {
         <div className="reg_list">
           <ul>
             <li>
-              Pay the registration fee using the below payment methods and amount as per your participation Type.
+              Pay the registration fee using the below payment methods and amount as per your participation type.
             </li>
             <li>
               After payment please fill out the form to confirm your registration {"->"}{" "}

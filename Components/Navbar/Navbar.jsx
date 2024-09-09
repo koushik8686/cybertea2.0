@@ -42,6 +42,7 @@ export default function Navbar() {
    
     // Append items to the ul element
     navRight.appendChild(item1);
+
   };
   const NavToggle = () => {
     setExpand(!expand);
