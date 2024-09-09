@@ -17,9 +17,13 @@ const Carousel = () => {
     autoplay: true,
     autoplaySpeed: 2000,
   };
-  const linkOpener=()=>{
-    window.open("https://forms.gle/To8gFQaw9cRxEi6z7", "_blank", "noreferrer");
-  }
+  const linkOpener = () => {
+    if (location.pathname === "/") {
+      window.open("https://forms.gle/yPqFsNJGwFACvSYFA", "_blank", "noreferrer");
+    } else {
+      window.open("https://forms.gle/To8gFQaw9cRxEi6z7", "_blank", "noreferrer");
+    }
+  };
   return (
     <div className="carousel-container" onClick={linkOpener} style={{cursor:"pointer"}}>
       <Slider {...settings} className="carousel">

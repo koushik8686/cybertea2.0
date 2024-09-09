@@ -1,5 +1,5 @@
 import React from "react";
-import qr from "../../src/assets/qr.jpeg"; // Adjust the path if needed
+import qr from "../../src/assets/qr2.jpeg"; // Adjust the path if needed
 import "./Registration2.css"; // Use a separate CSS file for CyberTEA 2.0
 
 function Registration2() {
