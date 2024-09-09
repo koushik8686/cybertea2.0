@@ -4,6 +4,7 @@ import Navbar from "../Components/Navbar/Navbar";
 import CyberTEA1 from "../Components/CyberTEA1"; // Import CyberTEA1 component for version 1.0
 import Carousel from "../Components/Carousel/Carousel"; // Components for CyberTEA 2.0
 import CardSlider from "../Components/CardSlider/CardSlider";
+import CardSlider2 from "../Components/CardSlider/CardSlider2-0";
 import NewsSchedule from "../Components/ScheduleAndRegister/ScheduleAndRegister";
 import NewsSchedule2 from "../Components/ScheduleAndRegister/ScheduleAndRegister2_0";
 import FooterComponent from "../Components/FooterComponent/FooterComponent";
@@ -42,7 +43,7 @@ function MainComponent() {
         <About />
       </div>
       <Patron />
-      <CardSlider />
+      <CardSlider2/>
       <NewsSchedule2/>
       <TeamHolder />
       <FooterComponent />
@@ -84,3 +85,5 @@ function App() {
 }
 
 export default App;
+
+
