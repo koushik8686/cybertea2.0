@@ -46,7 +46,7 @@ function Registration2() {
             <div className="grid-item">Rs. 900/-</div>
             <div className="grid-item">$50</div>
             <div className="grid-item">Rs. 1400/-</div>
-            <div className="grid-item">$50</div>
+            <div className="grid-item">$80</div>
 
             <div className="grid-item">Faculty</div>
             <div className="grid-item">Rs. 1400/-</div>
