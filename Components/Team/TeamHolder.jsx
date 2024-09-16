@@ -55,7 +55,7 @@ export default function TeamHolder() {
             link="https://www.linkedin.com/in/m-shreeraj/"
             image={MemberImages.Shree}
             design={true}
-            title="ShreeRaj Mummidivarapu"
+            title="ShreeRaj M"
           />
           <TeamCard
             name="Meghana"
