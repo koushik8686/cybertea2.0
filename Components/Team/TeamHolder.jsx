@@ -50,19 +50,19 @@ export default function TeamHolder() {
         </div>
         <h2>Design Team</h2>
         <div className="team_con">
-          <TeamCard
-            name="Meghana"
-            link="https://www.linkedin.com/in/kuruva-meghana-51b004319?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-            image={MemberImages.meghana}
-            title="Design Team"
-            design={true}
-          />
-          <TeamCard
+            <TeamCard
             name="Shreeraj M"
             link="https://www.linkedin.com/in/m-shreeraj/"
             image={MemberImages.Shree}
             design={true}
-            title="Design Team"
+            title="ShreeRaj Mummidivarapu"
+          />
+          <TeamCard
+            name="Meghana"
+            link="https://www.linkedin.com/in/kuruva-meghana-51b004319?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            image={MemberImages.meghana}
+            title="Kuruva Meghana"
+            design={true}
           />
 
         </div>
