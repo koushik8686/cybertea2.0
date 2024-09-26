@@ -16,6 +16,7 @@ import Patron from "../Components/Patron/Patron";
 import TeamHolder from "../Components/Team/TeamHolder";
 import Teamholder1_0 from "../Components/Team/TeamHolder-1.0" 
 import "./App.css"; // Import global styles
+import Patron1 from "../Components/Patron/patron1";
 
 // Helper component to scroll to top on route change
 function ScrollToTop() {
@@ -61,7 +62,7 @@ function CyberTEA1Component() {
       <div className="about_container">
         <About />
       </div>
-      <Patron />
+      <Patron1 />
       <CardSlider />
       <NewsSchedule />
       <Teamholder1_0 />
