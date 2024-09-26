@@ -10,7 +10,6 @@ export default function Patron1() {
         <PatronCard
             name="Prof. D.V.L.N. Somayajulu"
             img="/img/somayajulu.png"
-            link="https://www.nitmanipur.ac.in/DisplayPage.aspx?page=ckaeag"
             title="Director, IIIT Sri City, Chittoor"
           />
         </div>
