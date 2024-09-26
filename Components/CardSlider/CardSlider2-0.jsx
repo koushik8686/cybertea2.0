@@ -101,7 +101,7 @@ export default function CardSlider2() {
             ))}
           </Slider>
         </div>
-        <h1 className="heading">Hands On Speakers</h1>
+        <h1 className="heading">Hands-On Speakers</h1>
         <div className="slick-carousel academic">
           <Slider {...academicSettings} >
             {academicSpeakers.map((speaker, index) => (
