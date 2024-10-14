@@ -31,7 +31,7 @@ function Registration2() {
         <div className="fee_container">
           <div className="grid-container">
             <div className="grid-heading">Participant Type</div>
-            <div className="grid-heading early-registration" >Early Registration</div>
+            <div className="grid-heading early-registration" >Early Registration <br />  Deadline: 10 Oct 2024</div>
             <div className="grid-heading regular-registration" >Regular Registration</div>
 
             {/* Subheadings for Early and Regular Registration */}

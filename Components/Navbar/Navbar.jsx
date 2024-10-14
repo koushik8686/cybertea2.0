@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import  { useState, useEffect } from "react";
 import logo from "../../src/assets/cyberTea_Circular.png";
 import { Squash as Hamburger } from "hamburger-react";
 import { Link,  useLocation } from "react-router-dom";
@@ -135,12 +135,12 @@ export default function Navbar() {
              href={
               location.pathname === '/cybertea1.0' || location.hash === '#/cybertea1.0'
                 ? '/img/CyberTEA_Brochure.pdf'
-                : '/img/CyberTEA2.0_Brochure.pdf' // Ensure paths are correct
+                : '/img/CyberTEA 2.0 Brochure IIITS.pdf' // Ensure paths are correct
             }
             download={
               location.pathname === '/cybertea1.0' || location.hash === '#/cybertea1.0'
                 ? 'CyberTEA_Brochure.pdf'
-                : 'CyberTEA2.0_Brochure.pdf'
+                : 'CyberTEA 2.0 Brochure.pdf'
             }
           >
             Brochure
