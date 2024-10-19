@@ -1,5 +1,5 @@
 // Import statements for all speakers
-import p1 from "../../src/assets/Speakers_2.0/Ravi_Kumar.jpg";
+import p1 from "../../src/assets/Speakers_2.0/Prof. Jaidhar.png";
 import p2 from "../../src/assets/Speakers_2.0/Chandan Gautam.jpg";
 import p3 from "../../src/assets/Speakers_2.0/Aditya Japa.jpg";
 import p4 from "../../src/assets/Speakers_2.0/Nitesh K Bharadwaj.jpg";
@@ -9,7 +9,7 @@ import p7 from "../../src/assets/Speakers_2.0/Padmavathi U.jpg";
 import p8 from "../../src/assets/Speakers_2.0/Kamalakanth Sethi.jpg";
 
 
-import p11 from "../../src/assets/Speakers_2.0/Nikhil Tripathi.jpg";
+import p11 from "../../src/assets/Speakers_2.0/Dr. Pankaj Choudhary.jpg";
 
 
 import p13 from "../../src/assets/Speakers_2.0/Ms M Suma Sri.jpg";
@@ -84,9 +84,9 @@ const speakersData = [
   // Industry category
   {
     photo: p1,
-    name: "Dr. Ravi Kumar",
-    abt: "HCL Technologies",
-    link: "https://www.linkedin.com/in/kumar-ravi-phd-99a20a3b/",
+    name: "Prof. Jaidhar",
+    abt: "NIT Surathkal",
+    link: "/",
     category: "Industry",
   },
   {
@@ -141,9 +141,9 @@ const speakersData = [
   
   {
     photo: p11,
-    name: "Dr. Nikhil Tripathi",
-    abt: "IIIT Sricity",
-    link: "/",
+    name: "Dr. Pankaj Choudhary",
+    abt: "Global Security Office,Publicis Re:Sources",
+    link: "https://www.linkedin.com/in/dr-pankaj-choudhary-a708623a/?originalSubdomain=in",
     category: "Industry",
   },
 
