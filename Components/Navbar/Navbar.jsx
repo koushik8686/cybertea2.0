@@ -135,7 +135,7 @@ export default function Navbar() {
              href={
               location.pathname === '/cybertea1.0' || location.hash === '#/cybertea1.0'
                 ? '/img/CyberTEA_Brochure.pdf'
-                : '/img/CyberTEA 2.0 Brochure IIITS.pdf' // Ensure paths are correct
+                : '/img/CyberTEA 2.0 Brochure.pdf' // Ensure paths are correct
             }
             download={
               location.pathname === '/cybertea1.0' || location.hash === '#/cybertea1.0'
