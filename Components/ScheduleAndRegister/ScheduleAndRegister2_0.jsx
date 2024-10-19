@@ -1,9 +1,7 @@
 import "./ScheduleAndRegister2_0.css";
-import ScheduleImage from "../../src/assets/CyberTEA-Schedule of the Workshop.jpg"; // Correct path for your schedule image
+// import ScheduleImage from "../../src/assets/Schedule2-0.jpg"; // Correct path for your schedule image
+import ScheduleImage from "../../src/assets/Schedule2-0.png"
 import Registration2 from "../Registration/Registration2";
-import Registration1 from "../Registration/Registration1";
-import { useLocation } from "react-router-dom";
-
 const NewsSchedule2 = () => {
  
   return (
@@ -13,8 +11,7 @@ const NewsSchedule2 = () => {
         <h1>Schedule</h1>
       </div>
       <div className="NewsSchedule-body">
-        {/* <img src={ScheduleImage} alt="Workshop Schedule" /> */}
-       Coming Soon
+        <img src={ScheduleImage} alt="Workshop Schedule" />
       </div>
     </div>
     <div id="news">
