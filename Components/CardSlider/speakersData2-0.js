@@ -1,16 +1,16 @@
-// Import statements
+// Import statements for all speakers
 import p1 from "../../src/assets/Speakers_2.0/Ravi_Kumar.jpg";
 import p2 from "../../src/assets/Speakers_2.0/Chandan Gautam.jpg";
 import p3 from "../../src/assets/Speakers_2.0/Aditya Japa.jpg";
 import p4 from "../../src/assets/Speakers_2.0/Nitesh K Bharadwaj.jpg";
 import p5 from "../../src/assets/Speakers_2.0/Jayakumar S.jpg";
-import p6 from "../../src/assets/Speakers_2.0/Chandra Sekhar V.jpg";
+import p6 from "../../src/assets/Speakers_2.0/Aditya_Bhatiya.jpg";
 import p7 from "../../src/assets/Speakers_2.0/Padmavathi U.jpg";
 import p8 from "../../src/assets/Speakers_2.0/Kamalakanth Sethi.jpg";
-import p9 from "../../src/assets/Speakers_2.0/Abhishek Hazra.jpg";
-import p10 from "../../src/assets/Speakers_2.0/Mallikarjun Reddy.jpg";
+
+
 import p11 from "../../src/assets/Speakers_2.0/Nikhil Tripathi.jpg";
-import p12 from "../../src/assets/Speakers_2.0/Neha Agarwal.jpg";
+
 
 import p13 from "../../src/assets/Speakers_2.0/Ms M Suma Sri.jpg";
 import p14 from "../../src/assets/Speakers_2.0/Mr Rahul Kanyal.jpg";
@@ -18,7 +18,33 @@ import p15 from "../../src/assets/Speakers_2.0/Mr Ragan Murali.jpg";
 import p16 from "../../src/assets/Speakers_2.0/Ms Krishna Kumari Matta.jpg";
 import p17 from "../../src/assets/Speakers_2.0/Ms Munmun Swain.jpg";
 
+import p18 from "../../src/assets/Speakers_2.0/John_Augustine.png";
+import p19 from "../../src/assets/Speakers_2.0/Krishna_Sastry.jpg";
+import p20 from "../../src/assets/Speakers_2.0/Chester_Rebeiro.jpg";
+
 const speakersData = [
+  // Keynote Speakers category
+  {
+    photo: p18,
+    name: "Prof. John Augustine",
+    abt: "IIT Madras",
+    link: "https://www.linkedin.com/in/johnaugustine?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    category: "Keynote",
+  },
+  {
+    photo: p19,
+    name: "Dr. Krishna Sastry Pendyala",
+    abt: "Ernst & Young",
+    link: "https://www.linkedin.com/in/krishna-sastry-pendyala-4573128/",
+    category: "Keynote",
+  },
+  {
+    photo: p20,
+    name: "Dr. Chester Rebeiro",
+    abt: "IIT Madras",
+    link: "https://www.linkedin.com/in/chester-rebeiro-7475192/",
+    category: "Keynote",
+  },
   // Academic category
   {
     photo: p13,
@@ -93,8 +119,8 @@ const speakersData = [
   },
   {
     photo: p6,
-    name: "Dr. Chandra Sekhar V",
-    abt: "Samsung",
+    name: "Mr.Aditya Bhatia",
+    abt: "DSIC",
     link: "/",
     category: "Industry",
   },
@@ -112,20 +138,7 @@ const speakersData = [
     link: "/",
     category: "Industry",
   },
-  {
-    photo: p9,
-    name: "Dr. Abhishek Hazra",
-    abt: "IIIT Sricity",
-    link: "/",
-    category: "Industry",
-  },
-  {
-    photo: p10,
-    name: "Dr. Mallikarjun Reddy",
-    abt: "IIIT Sricity",
-    link: "/",
-    category: "Industry",
-  },
+  
   {
     photo: p11,
     name: "Dr. Nikhil Tripathi",
@@ -133,13 +146,7 @@ const speakersData = [
     link: "/",
     category: "Industry",
   },
-  {
-    photo: p12,
-    name: "Dr. Neha Agarwal",
-    abt: "IIIT Sricity",
-    link: "/",
-    category: "Industry",
-  },
+
 ];
 
 export default speakersData;
