@@ -157,7 +157,7 @@ function CardSlider2() {
 
 
           {/* Speakers Section */}
-          <h1 className="heading">Speakers</h1>
+          <h1 className="heading">Acadeemic And Industry Speakers</h1>
           <div className="slick-carousel industry">
             <Slider {...industrySettings}>
               {industrySpeakers.map((speaker, index) => (

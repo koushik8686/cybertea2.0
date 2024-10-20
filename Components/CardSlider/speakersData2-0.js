@@ -33,14 +33,14 @@ const speakersData = [
   },
   {
     photo: p19,
-    name: "Dr. Krishna Sastry Pendyala",
+    name: "Mr. Krishna Sastry Pendyala",
     abt: "Ernst & Young",
     link: "https://www.linkedin.com/in/krishna-sastry-pendyala-4573128/",
     category: "Keynote",
   },
   {
     photo: p20,
-    name: "Dr. Chester Rebeiro",
+    name: "Prof. Chester Rebeiro",
     abt: "IIT Madras",
     link: "https://www.linkedin.com/in/chester-rebeiro-7475192/",
     category: "Keynote",
